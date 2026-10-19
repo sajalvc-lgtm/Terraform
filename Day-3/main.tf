@@ -5,7 +5,7 @@ resource  "aws_instance" "name"{
   tags= {
     Name = "sajal"
   }
-
+}
   resource "aws_s3" "allow_ssh" {
     name        = "allow_ssh"
     description = "Allow SSH inbound traffic"
